@@ -1,0 +1,5 @@
+C:\Projects\tests\TFScnt\TFScnt\bin\Debug\TFAddin.dll
+C:\Projects\tests\TFScnt\TFScnt\bin\Debug\TFAddin.pdb
+C:\Projects\tests\TFScnt\TFScnt\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\tests\TFScnt\TFScnt\obj\x86\Debug\TFAddin.dll
+C:\Projects\tests\TFScnt\TFScnt\obj\x86\Debug\TFAddin.pdb

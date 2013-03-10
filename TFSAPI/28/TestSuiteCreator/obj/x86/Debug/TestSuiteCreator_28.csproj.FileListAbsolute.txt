@@ -1,0 +1,12 @@
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\bin\Debug\TestSuiteCreator_28.exe
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\bin\Debug\TestSuiteCreator_28.pdb
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator_28.csprojResolveAssemblyReference.cache
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\MainWindow.baml
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\MainWindow.g.cs
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\App.g.cs
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator_28_MarkupCompile.cache
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator_28.g.resources
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator.Properties.Resources.resources
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator_28.csproj.GenerateResource.Cache
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator_28.exe
+C:\Projects\tests\TFSAPI\28\TestSuiteCreator\obj\x86\Debug\TestSuiteCreator_28.pdb

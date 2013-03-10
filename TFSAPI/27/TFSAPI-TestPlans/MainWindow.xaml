@@ -1,0 +1,9 @@
+﻿<Window x:Class="TFSAPI_TestPlans.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="399" Width="503">
+    <Grid>
+        <Button Content="Connect TFS" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="btn_connect" VerticalAlignment="Top" Width="92" Click="btn_connect_Click" />
+        <TreeView Margin="12,52,12,12" Name="TreeMain" />
+    </Grid>
+</Window>

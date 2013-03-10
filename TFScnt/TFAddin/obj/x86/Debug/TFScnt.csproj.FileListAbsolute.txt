@@ -1,0 +1,5 @@
+C:\Projects\tests\TFScnt\TFScnt\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Projects\tests\TFScnt\TFScnt\bin\Debug\TFScnt.dll
+C:\Projects\tests\TFScnt\TFScnt\bin\Debug\TFScnt.pdb
+C:\Projects\tests\TFScnt\TFScnt\obj\x86\Debug\TFScnt.dll
+C:\Projects\tests\TFScnt\TFScnt\obj\x86\Debug\TFScnt.pdb

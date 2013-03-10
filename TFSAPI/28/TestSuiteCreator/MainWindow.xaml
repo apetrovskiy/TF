@@ -1,0 +1,39 @@
+﻿<Window x:Class="TestSuiteCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Test Suite Creator - Shai Raiten" Height="393" Width="759">
+    <Grid>
+        <Button Content="Connect TFS" Height="23" HorizontalAlignment="Left" Margin="12,12,0,0" Name="btn_connect_tfs" VerticalAlignment="Top" Width="100" Click="btn_connect_tfs_Click" />
+        <ProgressBar Height="13" Margin="18,0,6,12" Name="progressBar1" VerticalAlignment="Bottom" />
+        <TabControl Margin="12,46,12,31" Name="tabControl1" IsEnabled="False">
+            <TabItem Header="Test Plan &amp; Suite Creator" Name="tp_ts_creator">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="406*" />
+                        <ColumnDefinition Width="297*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="216*" />
+                        <RowDefinition Height="29" />
+                    </Grid.RowDefinitions>
+                    <ListBox Margin="10,30,12,6" Name="list_areas" SelectionMode="Extended" Grid.RowSpan="2" />
+                    <Label Content="Area Paths" Height="28" HorizontalAlignment="Left" Margin="10,6,0,0" Name="label1" VerticalAlignment="Top" />
+                    <ListBox Margin="13,93,6,13" Name="list_plans" Grid.Column="1">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Label Content="{Binding Name}" Tag="{Binding .}" />
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                    <TextBox Height="23" HorizontalAlignment="Left" Margin="13,30,0,0" Name="txt_test_plan" VerticalAlignment="Top" Width="176" Grid.Column="1" />
+                    <Label Content="Create Test Plan:" Height="28" HorizontalAlignment="Left" Margin="13,6,0,0" Name="label2" VerticalAlignment="Top" Grid.Column="1" />
+                    <Label Content="Test Plan List:" Height="28" HorizontalAlignment="Left" Margin="13,59,0,0" Name="label3" VerticalAlignment="Top" Grid.Column="1" />
+                    <Button Content="Remove" Height="23" HorizontalAlignment="Left" Margin="233,30,0,0" Name="btn_remove_plan" VerticalAlignment="Top" Width="58" Grid.Column="1" Click="btn_remove_plan_Click" />
+                    <Button Content="Start" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Right" Margin="0,0,6,6" Name="btn_create_testsuites" VerticalAlignment="Bottom" Width="75" Click="btn_create_testsuites_Click" />
+                    <Button Content="Add" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="196,30,0,0" Name="btn_add_plan" VerticalAlignment="Top" Width="31" Click="btn_add_plan_Click_1" />
+                </Grid>
+            </TabItem>  
+        </TabControl>
+        <Label Height="28" HorizontalAlignment="Left" Margin="176,16,0,0" Name="lbl_progress" VerticalAlignment="Top" FontSize="14" Foreground="Red" />
+    </Grid>
+</Window>

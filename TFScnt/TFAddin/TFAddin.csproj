@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{686D29A7-8CA9-4908-82D3-11530ACCBD19}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>TMX</RootNamespace>
+    <AssemblyName>TFAddin</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management.Automation" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\TF\AddTFTestCaseCommand.cs" />
+    <Compile Include="Commands\TF\AddTFTestSubSuiteCommand.cs" />
+    <Compile Include="Commands\TF\AddTFTestSuiteCommand.cs" />
+    <Compile Include="Commands\TF\ConnectTFServerCommand.cs" />
+    <Compile Include="Commands\TF\GetTFCollectionCommand.cs" />
+    <Compile Include="Commands\TF\GetTFProjectCommand.cs" />
+    <Compile Include="Commands\TF\GetTFTestCaseCommand.cs" />
+    <Compile Include="Commands\TF\GetTFTestPlanCommand.cs" />
+    <Compile Include="Commands\TF\GetTFTestSubSuiteCommand.cs" />
+    <Compile Include="Commands\TF\GetTFTestSuiteCommand.cs" />
+    <Compile Include="Commands\TF\NewTFTestPlanCommand.cs" />
+    <Compile Include="Commands\TF\OpenTFCollectionCommand.cs" />
+    <Compile Include="Commands\TF\OpenTFProjectCommand.cs" />
+    <Compile Include="Commands\TF\OpenTFTestCaseCommand.cs" />
+    <Compile Include="Commands\TF\OpenTFTestPlanCommand.cs" />
+    <Compile Include="Commands\TF\OpenTFTestSubSuiteCommand.cs" />
+    <Compile Include="Commands\TF\OpenTFTestSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvAddTestCaseCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvAddTestSubSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvAddTestSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvConnectCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvGetCollectionCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvGetProjectCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvGetTestCaseCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvGetTestSubSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvGetTestSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvOpenCollectionCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvOpenProjectCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvOpenTestCaseCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvOpenTestSubSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\Commands\TFSrvOpenTestSuiteCommand.cs" />
+    <Compile Include="Helpers\UnderlyingCode\TFHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands" />
+    <Folder Include="Commands\TF" />
+    <Folder Include="Helpers" />
+    <Folder Include="Helpers\UnderlyingCode" />
+    <Folder Include="Helpers\UnderlyingCode\Commands" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+</Project>

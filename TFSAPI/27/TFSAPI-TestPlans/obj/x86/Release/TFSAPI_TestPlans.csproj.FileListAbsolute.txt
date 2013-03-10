@@ -1,0 +1,13 @@
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\bin\Release\TFSAPI_TestPlans.exe.config
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\bin\Release\TFSAPI_TestPlans.exe
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\bin\Release\TFSAPI_TestPlans.pdb
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\MainWindow.baml
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\MainWindow.g.cs
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\App.g.cs
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\TFSAPI_TestPlans_MarkupCompile.cache
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\TFSAPI_TestPlans.g.resources
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\TFSAPI_TestPlans.Properties.Resources.resources
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\TFSAPI_TestPlans.csproj.GenerateResource.Cache
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\TFSAPI_TestPlans.exe
+C:\Projects\tests\TFSAPI\27\TFSAPI-TestPlans\obj\x86\Release\TFSAPI_TestPlans.pdb
